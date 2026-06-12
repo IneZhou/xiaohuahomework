@@ -1,0 +1,434 @@
+针对 Lungotevere Testaccio + Emporium 这类 500 米线性河岸段，数据分析不要做成“堆资料”，而要围绕一个核心判断：现代防洪墙把古代河港、城市街区和台伯河日常生活切开了；设计的任务不是改造整条河流，而是在防洪约束内重建可读性、可达性、微气候和日常使用。
+
+Emporium 本身是古罗马河港，约在公元前 2 世纪形成，位于 Aventine 与 Testaccio 一带，遗迹包括沿台伯河的码头、坡道和系船构造；Lungotevere Testaccio 这一段则是在现代防洪墙和滨河道路建设后形成的线性边缘空间。台伯河两岸的 Lungotevere 和 muraglioni 最初主要是为控制洪水而建设，1875 年相关工程启动，工程延续至 20 世纪。这个历史—水利—城市空间的叠合关系，是你所有图表的主线。
+
+最推荐的数据分析图表可以分成 4 组：历史水文组、空间阻隔组、环境性能组、使用与维护组。
+
+第一组：历史—水文—防洪约束
+
+多时段河岸剖面叠加图
+
+这是最重要的一张。它不是普通历史图，而是把“不同时代的河岸断面”叠在一起。
+
+横向：城市街区—Lungotevere 道路—muraglioni 防洪墙—下层河岸—台伯河。
+纵向：古代 Emporium 河港、19 世纪以前河岸、现代防洪墙建成后、当代现状。
+数据：历史地图、考古重建图、现状高程、街景照片、Google Earth 高程、现场剖面估算。
+作用：证明你的设计对象不是一块普通河岸绿地，而是“被工程化防洪系统压住的历史河港界面”。
+
+可用公式很简单，主要是高程关系：
+
+relative_height = point_elevation - normal_water_level
+flood_clearance = design_surface_elevation - reference_flood_level
+
+图上不需要做精密水利计算，但要标清楚：哪些空间是日常可使用区，哪些是洪水影响区，哪些结构不能动。
+
+季节水位与可使用空间关系图
+
+这张图用于说明“河岸空间不是全年同等可用”。你可以把它画成水位曲线 + 剖面 + 可使用宽度变化。
+
+横轴：月份。
+纵轴：台伯河水位或相对水位。
+叠加：正常水位、较高水位、洪水警戒水位、不可介入防洪线。
+设计意义：平台、座椅、植物、材料必须有“可淹没 / 不可淹没 / 可拆卸 / 可恢复”的分区逻辑。
+
+推荐指标：
+
+usable_riverbank_width = total_lower_bank_width - inundated_width
+
+seasonal_availability_ratio = usable_days_per_year / 365
+
+如果拿不到精确日水位数据，可以用“低水位季 / 常水位季 / 高水位季 / 洪水风险期”的定性分区表达。Lazio 的区域水文机构负责实时收集温度、降雨、水位等水文气象数据，这类资料适合作为水文约束分析的数据入口。
+
+防洪墙可介入性分级图
+
+这张图直接服务设计。不要只画墙，要判断“哪里能动，哪里不能动”。
+
+分级方式：
+
+A 类：不可触碰，防洪主结构、遗迹敏感段。
+B 类：轻量附着，可做标识、灯光、可逆装置。
+C 类：可使用界面，台阶、平台、栏杆、临时家具。
+D 类：可进行铺装和植被优化的下层河岸或边角空间。
+
+推荐图表：线性展开图 + 颜色分级 + 节点编号。
+
+推荐指标：
+
+intervention_potential_score =
+heritage_sensitivity_weight * heritage_score +
+flood_safety_weight * flood_safety_score +
+accessibility_weight * accessibility_score +
+maintenance_weight * maintenance_score
+
+这里不要装成精密工程模型。更适合用 1–5 分评分矩阵，最后生成“轻量介入优先区”。
+
+第二组：空间阻隔—可达性—行为轨迹
+
+城市连接网络图
+
+这张图要证明 Lungotevere Testaccio 不是孤立河岸，而是连接 Piazza dell’Emporio、Ponte Sublicio、Ponte Testaccio、Monte Testaccio、Ex Mattatoio、Testaccio 市场、Porticus Aemilia 等节点的线性界面。Testaccio 作为历史工人区和当代文化、餐饮、旅游混合区域，其空间使用并不只是游客观光，也包含居民日常生活。
+
+图表内容：
+
+500 米场地作为主线；
+周边 5 分钟 / 10 分钟步行圈；
+桥、广场、市场、文化设施、遗迹入口；
+断点、危险过街点、视觉不可达点。
+
+推荐公式：
+
+walking_time_minutes = distance_meters / walking_speed_m_per_minute
+
+一般步行速度可以用 80 m/min 做图面估算。
+5 分钟约 400 m，10 分钟约 800 m。
+
+阻隔强度分析图
+
+这里的核心不是“有一堵墙”，而是墙、车行道路、高差、遗迹围挡、缺少入口共同制造阻隔。
+
+推荐把阻隔分成四层：
+
+物理阻隔：墙、高差、栏杆、封闭遗迹。
+交通阻隔：车流、道路宽度、过街困难。
+视觉阻隔：看不到河、看不到遗迹、看不到入口。
+心理阻隔：不明确、不安全、不知道能不能进入。
+
+推荐指标：
+
+barrier_index =
+physical_barrier_score +
+traffic_barrier_score +
+visual_barrier_score +
+perceived_safety_score
+
+每项 1–5 分，按 20–50 米一个小段打分，最后画成线性热力图。
+
+行为轨迹与停留点图
+
+这张图用来支撑“日常使用”而不是只讲历史。
+可以分四类人：
+
+本地居民：散步、遛狗、买菜、通勤。
+游客：看遗迹、拍照、沿河走。
+文化活动人群：Ex Mattatoio、活动、夜间流动。
+弱势使用者：老人、儿童、行动不便者。
+
+推荐表达：
+
+路径箭头 + 停留点气泡 + 时间段条形图。
+上午、下午、傍晚、夜间分别标注使用强度。
+如果没有现场数据，可以用 Street View + Google Maps POI + 现场观察计划，标注为 preliminary observation。
+
+推荐指标：
+
+stay_potential_score =
+shade_score +
+view_score +
+noise_comfort_score +
+seat_availability_score +
+accessibility_score
+
+这个指标能直接转成节点设计优先级。
+
+第三组：微气候—生态—植被—土壤
+
+遮阴与热暴露图
+
+罗马夏季高温对河岸公共空间非常关键。你可以用最基础的太阳路径、建筑阴影、树冠覆盖和硬质铺装比例建立热风险图。遥感数据方面，Copernicus Sentinel-2 可用于植被覆盖和城市地表变化分析；近年城市绿色指数、绿地识别、城市变化检测等研究也大量使用 Sentinel-2、MODIS 等开放遥感数据。
+
+推荐图表：
+
+夏至 / 春秋分 / 冬至三个时间点阴影图；
+树冠覆盖图；
+硬质铺装与热暴露叠加图；
+“需要遮阴的停留区”机会图。
+
+推荐公式：
+
+tree_canopy_cover_ratio = tree_canopy_area / site_area
+
+shade_coverage_ratio = shaded_area_at_target_time / public_space_area
+
+heat_exposure_score =
+impervious_surface_ratio * 0.4 +
+lack_of_shade_ratio * 0.4 +
+low_vegetation_index_score * 0.2
+
+如果做遥感，可使用 NDVI：
+
+ndvi = (nir - red) / (nir + red)
+
+Sentinel-2 中常用 B8 作为近红外，B4 作为红光：
+
+ndvi = (B8 - B4) / (B8 + B4)
+
+NDVI 不是“植物质量”的全部，只能说明植被活性和覆盖趋势。设计里要再结合街景和现场观察判断树种、树冠、维护状态。
+
+不透水面与雨水滞留潜力图
+
+这张图支撑“轻量雨水策略”。不要说要改变台伯河水文，而是处理场地内雨水、道路径流、铺装和局部滞留。
+
+推荐图表：
+
+硬质铺装比例；
+径流方向；
+低洼点；
+可透水改造区；
+雨水花园 / 下凹绿地 / 植被缓冲带潜力点。
+
+推荐公式：
+
+impervious_surface_ratio = impervious_area / total_site_area
+
+简化径流量可以用 Rational Method：
+
+q = c * i * a
+
+q 是峰值径流量，c 是径流系数，i 是降雨强度，a 是汇水面积。
+作品集层面不需要做工程设计，但可以用它比较“现状硬化”与“设计后透水化”的趋势。
+
+设计前后对比：
+
+runoff_reduction_ratio = (runoff_existing - runoff_proposed) / runoff_existing
+
+如果只做概念设计，可以用不同铺装的径流系数估算：沥青和混凝土高，碎石、透水铺装、绿地低。
+
+植被维护压力图
+
+这个选题很适合强调“低维护”。因为河岸空间涉及市政维护、防洪安全、游客使用、遗迹保护，不能做高维护花园。
+
+图表内容：
+
+现有乔木；
+缺株、裸地、杂草、被踩踏区域；
+可低维护种植区；
+不可深挖区；
+可季节性更新区；
+耐旱 / 耐水湿 / 耐污染植物策略。
+
+推荐指标：
+
+maintenance_risk_score =
+irrigation_need_score +
+pruning_need_score +
+flood_damage_risk_score +
+trampling_risk_score +
+heritage_constraint_score
+
+植物策略可以分三类：
+
+上层道路侧：耐旱、耐热、抗污染、提供遮阴。
+墙体与遗迹附近：根系风险低、可控、避免破坏结构。
+下层河岸：耐周期性淹水、可恢复、低维护。
+
+土壤与地表扰动风险图
+
+这里不建议假装有精确土壤检测。Testaccio 是历史河港、工业和城市填土叠合区，土壤更适合做“风险假设图”。
+
+图表内容：
+
+可能填土区；
+压实硬化区；
+遗迹敏感区；
+可能污染或扰动风险区；
+适合浅层种植 / 容器种植 / 架空平台 / 不深挖区域。
+
+推荐指标：
+
+soil_intervention_sensitivity =
+heritage_risk_score +
+compaction_score +
+contamination_uncertainty_score +
+root_conflict_score
+
+ISPRA 对意大利土地消耗和人工覆盖有年度监测与开放数据，适合用来说明“人工覆盖/不透水化”这类宏观背景；它将土壤消耗定义为从非人工覆盖转为人工覆盖，并把道路、建筑、硬质铺装等永久或可逆人工覆盖纳入监测。
+
+第四组：遗产叙事—材料—维护—综合决策
+
+遗迹可读性与叙事节点图
+
+Emporium 的价值不只是“有遗迹”，而是它曾经承担河港、仓储、贸易、城市物资流动的功能。Emporium 资料显示，这一区域包含约 500 米长、90 米深的古代码头遗存，并有台阶、坡道、系船孔等与河运相关的构造。
+
+图表内容：
+
+可见遗迹；
+被墙体遮挡的遗迹；
+历史叙事节点；
+可设置解说、观察平台、地面标记的位置；
+“看得见 / 看不见 / 看不懂”的分级。
+
+推荐指标：
+
+heritage_readability_score =
+visibility_score +
+accessibility_score +
+interpretation_potential_score -
+damage_risk_score
+
+这张图直接导出“三段式叙事”：
+
+港口记忆段：强调 Emporium、货物流动、台阶、码头。
+防洪墙段：强调现代工程如何切断河岸。
+日常再连接段：强调居民使用、遮阴、停留、轻量活动。
+
+材料适宜性矩阵
+
+这不是单独地图，而是非常适合放在分析板或策略板上的表格。
+
+比较材料：
+
+石材 / 再生石材
+透水铺装
+金属格栅
+木平台
+可拆卸座椅
+耐候钢
+砾石
+植被基质
+低照度灯具
+标识系统
+
+评价维度：
+
+是否可逆；
+是否耐洪水；
+是否低维护；
+是否尊重遗迹；
+是否防滑；
+是否适合高温；
+是否容易被市政替换。
+
+推荐评分：
+
+material_suitability_score =
+reversibility_score +
+flood_resistance_score +
+maintenance_score +
+heritage_compatibility_score +
+thermal_comfort_score
+
+这张表可以帮助你避免“设计很好看但不现实”。
+
+设计机会优先级矩阵
+
+把所有分析收束成一张决策图。
+横轴：设计价值。
+纵轴：实施难度。
+每个节点一个点。
+
+例如：
+
+A 点：Piazza dell’Emporio 入口强化。价值高，难度中。
+B 点：Emporium 可见遗迹解说平台。价值高，难度高。
+C 点：道路侧遮阴和座椅。价值中高，难度低。
+D 点：下层河岸可淹没平台。价值高，难度高。
+E 点：墙体轻量标识系统。价值中，难度低。
+
+推荐公式：
+
+priority_score = impact_score / implementation_difficulty_score
+
+或者更完整：
+
+priority_score =
+heritage_value * 0.25 +
+accessibility_gain * 0.25 +
+microclimate_benefit * 0.20 +
+ecological_benefit * 0.15 +
+maintenance_feasibility * 0.15
+
+这张图很适合放在“问题叠加与机会综合图”之后，作为进入设计策略的过渡。
+
+设计前后指标对比图
+
+这张图适合放在最终方案板，让你的设计不是“主观变好看”，而是有性能比较。
+
+可比较指标：
+
+树冠覆盖率
+遮阴覆盖率
+透水面积比例
+可停留空间面积
+连续步行路径长度
+入口数量
+遗迹可读节点数量
+可达性改善
+座椅数量
+低维护种植面积
+
+推荐公式：
+
+improvement_ratio = (proposed_value - existing_value) / existing_value
+
+例如：
+
+canopy_improvement = (proposed_canopy_area - existing_canopy_area) / existing_canopy_area
+
+permeability_improvement = (proposed_permeable_area - existing_permeable_area) / existing_permeable_area
+
+accessibility_gain = proposed_access_points - existing_access_points
+
+你这个项目最值得做的“核心 8 张数据分析图”可以这样定稿：
+
+历史—水文—工程化河岸多时段剖面图
+500 米现状线性总图 + 典型横剖面
+季节水位与防洪约束图
+阻隔强度与可达性图
+行为轨迹与停留潜力图
+遮阴、热暴露与树冠覆盖图
+不透水面、径流与雨水滞留潜力图
+遗产可读性、维护难度与机会综合图
+
+其中 1、2、3、8 是必做。4、6、7 是最能转化成设计策略的性能图。5 用来避免方案变成“只有历史没有人”。植被、土壤、材料、维护可以合并进 6、7、8，不一定单独占一整张 A1。下面这些是适合你这个项目直接查资料、下载底图或引用说明的公开来源。优先级按“政府/官方数据 > 欧盟公开数据 > 学术/考古资料 > 辅助地图”排序。
+
+用途	推荐来源	可查内容	网址
+罗马市级 GIS、城市底图、行政边界、规划信息	Roma Capitale Geoportale	市政地理信息、城市底图、规划相关图层入口	https://www.comune.roma.it/web/it/geoportale.page
+罗马市公开数据	Roma Capitale Open Data	统计、公共设施、城市管理、部分环境和公共空间数据入口	https://www.comune.roma.it/web/it/open-data.page
+Lazio 区域 GIS	Geoportale Regione Lazio	区域级地图、地形、土地利用、环境、行政边界、WMS/WFS 服务入口	https://geoportale.regione.lazio.it/
+Lazio 区域开放数据	Regione Lazio Open Data	区域公共数据、环境、交通、行政、土地相关数据	https://dati.lazio.it/
+水文、降雨、水位、气象监测	Regione Lazio / Centro Funzionale Regionale / Ufficio Idrografico e Mareografico	降雨、温度、水位、预警区、历史水文资料；适合做台伯河水文约束分析	https://www.idrografico.regione.lazio.it/
+洪水风险、流域规划	Autorità di Bacino Distrettuale dell’Appennino Centrale	台伯河流域、防洪、洪水风险管理、流域规划	https://www.autoritadistrettoac.it/
+土壤消耗、不透水面、人工覆盖	ISPRA / SNPA	意大利全国土壤消耗、人工覆盖、土地转化、年度报告和开放数据	https://www.isprambiente.gov.it/it/attivita/suolo-e-territorio/il-consumo-di-suolo
+欧洲遥感数据	Copernicus Data Space Ecosystem	Sentinel-2、Sentinel-1、遥感影像下载；适合 NDVI、植被、地表覆盖分析	https://dataspace.copernicus.eu/
+Sentinel 在线浏览与下载	Copernicus Browser	直接查看和导出 Sentinel 影像，可做 NDVI、植被覆盖、季节对比	https://browser.dataspace.copernicus.eu/
+欧洲土地覆盖、城市不透水面、植被、水循环	Copernicus Land Monitoring Service	CORINE Land Cover、Urban Atlas、imperviousness、tree cover 等	https://land.copernicus.eu/en
+罗马考古空间信息	SITAR Roma	罗马考古遗存、考古调查、保护信息；适合查 Emporium / Porticus Aemilia 相关空间资料	https://sitar.cultura.gov.it/
+罗马文化遗产管理	Sovrintendenza Capitolina ai Beni Culturali	市属文化遗产、博物馆、考古遗址说明	https://www.sovraintendenzaroma.it/
+国家级罗马文物保护机构	Soprintendenza Speciale Archeologia Belle Arti e Paesaggio di Roma	国家级考古、建筑、景观遗产保护；适合查保护约束和遗产背景	https://www.soprintendenzaspecialeroma.it/
+Testaccio 分散博物馆/遗产叙事	Museo Diffuso del Rione Testaccio	Testaccio 的历史节点、Emporium、Porticus Aemilia、Monte Testaccio 等叙事资料	https://www.soprintendenzaspecialeroma.it/schede/museo-diffuso-del-rione-testaccio_2976/
+古罗马空间重建	Digital Augustan Rome	古罗马建筑、道路、区域重建资料，可辅助历史层叠图	https://www.digitalaugustanrome.org/
+开放街道与建筑轮廓	OpenStreetMap	道路、建筑、桥梁、POI、步行网络；适合 QGIS 底图	https://www.openstreetmap.org/
+OSM 数据下载	Geofabrik	可下载 Italy / Lazio / Roma 的 OSM 数据包	https://download.geofabrik.de/europe/italy.html
+高程、坡度、地形辅助	OpenTopography	全球 DEM、高程资料入口；可辅助剖面和高差判断	https://opentopography.org/
+全球 DEM 辅助	NASA Earthdata	SRTM、ASTER 等高程和遥感数据	https://earthdata.nasa.gov/
+气候再分析数据	Copernicus Climate Data Store	ERA5 温度、降雨、风、热环境背景；适合城市热风险背景分析	https://cds.climate.copernicus.eu/
+
+你这个项目最应该优先查 6 类数据。
+
+第一类是城市底图和空间边界。用 Roma Capitale Geoportale、Roma Capitale Open Data、Geoportale Regione Lazio、OpenStreetMap。它们用于做 500 米线性总图、道路、桥梁、建筑、公共空间、行政边界和城市连接图。Roma Capitale 官网本身把“Open data”和“Geoportale di Roma Capitale”列在“Dati e statistiche”下，可作为市级数据入口引用。
+
+第二类是水文和防洪。用 Regione Lazio 的 Ufficio Idrografico / Centro Funzionale，再配合 Autorità di Bacino Distrettuale dell’Appennino Centrale。Lazio 的水文气象系统负责温度、降雨、水位等监测，适合支撑“季节水位、防洪墙约束、不可介入区”的分析。
+
+第三类是土地覆盖、不透水面和土壤消耗。用 ISPRA / SNPA、Copernicus Land Monitoring Service。ISPRA/SNPA 的土壤消耗数据是意大利官方长期监测体系，适合支撑硬化地、人工覆盖、透水性改善前后对比；Copernicus Land Monitoring Service 提供土地覆盖、土地利用、植被状态、水循环等免费数据。
+
+第四类是遥感和微气候背景。用 Copernicus Data Space、Copernicus Browser、Copernicus Climate Data Store。Copernicus Data Space 明确提供 Sentinel 数据、API、JupyterLab、openEO、Sentinel Hub 等分析入口，适合做 NDVI、植被覆盖、地表硬化、季节影像对比。
+
+第五类是遗产和历史资料。用 SITAR Roma、Soprintendenza Speciale、Sovrintendenza Capitolina、Museo Diffuso del Rione Testaccio、Digital Augustan Rome。Emporium 是古罗马河港，Lungotevere Testaccio 下方仍可见其遗存；Porticus Aemilia 与 Emporium、台伯河物资运输关系密切，这些资料可支撑“历史演变与多时段剖面图”。
+
+第六类是行为、使用和日常活动。公开数据会比较弱，主要用 OpenStreetMap POI、Google Maps/Street View、Roma Capitale 活动信息、Testaccio 市场和 Ex Mattatoio 周边活动资料。这里要标注为“公开地图资料 + 远程观察 + 后续现场验证”，不要写成精确人流统计。
+
+最实用的检索关键词如下：
+
+Lungotevere Testaccio Emporium Roma
+Emporium Testaccio resti archeologici
+Porticus Aemilia Testaccio
+Museo Diffuso Rione Testaccio Emporium
+Roma Capitale Geoportale Testaccio
+Roma Capitale open data verde pubblico
+Regione Lazio Geoportale CTR WMS
+Regione Lazio idrografico Tevere Roma
+Autorità Bacino Appennino Centrale Tevere Roma rischio alluvione
+ISPRA consumo di suolo Roma
+Copernicus Urban Atlas Roma
+Copernicus imperviousness Roma
+Sentinel-2 NDVI Roma Testaccio
