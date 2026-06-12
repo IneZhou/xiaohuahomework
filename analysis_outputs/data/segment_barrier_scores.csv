@@ -1,0 +1,6 @@
+id,distance_start_m,distance_end_m,name,physical_barrier,traffic_barrier,visual_barrier,perceived_safety,heritage_sensitivity,flood_safety_constraint,accessibility_need,maintenance_complexity,impervious_surface,lack_of_shade,low_vegetation,barrier_index
+S1,0,100,Piazza dell'Emporio / Ponte Sublicio,4,4,3,3,3,4,5,3,4,3,3,14
+S2,100,200,Emporium 可见遗迹 / Lungotevere 11,5,4,4,4,5,5,4,4,4,4,3,17
+S3,200,300,Via Franklin 横向联系,4,3,4,3,3,4,5,3,5,4,4,14
+S4,300,400,Via Rubattino / Via Branca 遗迹联系,3,3,3,3,4,3,4,3,4,3,3,12
+S5,400,500,Ponte Testaccio / Largo G. B. Marzi,4,5,3,4,3,4,5,4,5,4,4,16
