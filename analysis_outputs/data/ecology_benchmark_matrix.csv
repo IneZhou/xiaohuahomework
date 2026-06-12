@@ -1,0 +1,9 @@
+indicator,baseline,score_1,score_3,score_5,data_source,drawing_output,current_confidence
+native_riparian_species_ratio,existing species unknown; reference palette only,few or no native riparian plants,some native species but fragmented,"native trees, shrubs, herbs form stable structure",site plant survey + Roma / Lazio open data,planting strategy map,E
+flood_recovery_capacity,seasonal flood response is conceptual,plants and facilities fail after flood,partial recovery with cleanup,"washable, replaceable, regrowth-friendly edge",Regione Lazio hydrometric data + flood marks,flood recovery section,D/E
+habitat_structural_complexity,hard river edge dominates,single hard edge,local rough edge and vegetation patches,"tree, shrub, herb, wet edge and rough microhabitats",site sections + remote imagery,habitat section,D
+disturbance_control,human use not measured by time period,"people, dogs and light unmanaged",some path separation,clear low-disturbance edge and observation nodes,manual observation + night survey,human-bio interaction map,E
+aquatic_edge_quality,vertical flood wall limits natural edge,no usable ecological edge,local resting or roughness elements,flood-compatible microhabitat stepping stones,section survey + authority constraints,aquatic edge detail,D/E
+maintenance_ecology_balance,maintenance rules unknown,maintenance removes all succession,zoning exists but unclear,high/medium/low maintenance zones and cleanup routes,management interview + site records,maintenance zoning map,E
+invasive_species_risk,invasive species not surveyed,high-risk species expanding,monitoring without action,"avoidance, removal and monitoring strategy",plant survey + risk species checklist,ecological risk map,E
+canopy_and_shade_gain,heat exposure scored qualitatively,no shade gain,local shade improvement,S3/S5 heat nodes measurably improved,tree survey + remote shade analysis,heat and canopy map,D/E

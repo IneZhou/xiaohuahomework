@@ -39,3 +39,28 @@ CSV 文件位于 `data/`：
 - `heritage_readability_scores.csv`
 - `seasonal_availability_assumptions.csv`
 - `design_priority_scores.csv`
+
+## 追加矩阵图表
+
+7. `charts/07_diagnosis_strategy_matrix.svg`  
+   诊断-策略矩阵，将 issue、evidence、segment、response 和 drawing output 对齐。
+
+8. `charts/08_material_suitability_matrix.svg`  
+   材料适宜性矩阵，按可逆性、耐洪水、维护、遗产兼容和热舒适评分。
+
+9. `charts/09_data_gap_priority.svg`  
+   数据缺口优先级图，标出必须通过官方资料、现场或人工判断补齐的内容。
+
+## 生态、水文生物与人-生物互动图表
+
+10. `charts/10_ecology_benchmark_matrix.svg`  
+    生态保护评价基准矩阵，包含本地河岸植物比例、洪水恢复力、生境复杂度、干扰控制、水体边缘质量、维护平衡、入侵风险和树冠遮阴等指标。
+
+11. `charts/11_flood_regeneration_strategy.svg`  
+    洪水影响与植被再生策略图，用于表达低位河岸“可淹没、可冲刷、可恢复”的植物和材料逻辑。
+
+12. `charts/12_human_bio_interaction_matrix.svg`  
+    人类活动与生物干扰控制矩阵，覆盖观鸟、儿童自然教育、遛狗、夜间使用、摄影停留和维护。
+
+13. `charts/13_segment_ecology_goals.svg`  
+    S1-S5 分段生态目标图，将种植结构、水文生物解释和优先级对应到空间段落。

@@ -1,0 +1,6 @@
+material,reversibility,flood_resistance,maintenance,heritage,thermal,segment
+permeable paving,3,3,3,2,4,S3/S5
+open-graded gravel base,4,3,3,3,3,S3/S4 edge
+metal grating / raised deck,5,4,3,4,2,S2 edge / S4
+floodable stone / concrete repair,2,5,4,4,2,lower bank
+bioretention soil + rain garden,3,2,3,2,5,S3/S5 upper
