@@ -1,112 +1,230 @@
-Lungotevere Testaccio + Emporium
-我比较喜欢河岸遗址这个，选题暂且确定为这个吧
+这份诊断报告已经可以作为项目“现状分析与设计依据”的基础稿。整体逻辑成立：它没有把场地当成普通滨水公园，而是把古代河港、现代防洪、交通边界、遗产法规和日常使用叠加起来判断。这是正确方向。
 
-我需要你按照以下方向更加具体的帮我整理地块的现状
+需要修正和加强的地方主要有 6 点。
 
-针对 Lungotevere Testaccio + Emporium 这个线性河岸遗址，我先把场地基本尺度给你明确了，再按不同类型资料给你推荐搜索策略和具体关键词（中英意混用，便于你直接复制搜索）。
-1. 场地基本尺度（先建立空间概念）
+第一，证据等级要再分细。
+现在“公开资料、项目内定性评分、法规条文”三类还不够。建议改成五级：
 
-核心研究长度：约 500米 线性河岸段。
-北起：Piazza dell’Emporio（靠近 Ponte Sublicio）
-南至：Largo Giovanni Battista Marzi（靠近 Ponte Testaccio）
+A 级：法律、官方机构、政府开放数据。
+B 级：考古机构、博物馆、官方遗产说明。
+C 级：公开地图、遥感、Street View、OSM。
+D 级：项目定性评分、推导模型、公式框架。
+E 级：设计假设、待现场验证内容。
 
-历史Emporium仓库尺度：约 487米长 × 60米宽（古代沿河平行布置的巨大仓库建筑，几乎和现代Lungotevere这段长度相当）。
-防洪墙（Muraglioni）高度：典型 约12米高（19世纪末-20世纪初建造），造成显著的高差（城市路面比河面高很多）。
-设计尺度建议：
-总平面推荐 1:1000 或 1:750（线性展开）
-典型横剖面 1:200
-重点节点放大 1:100 或 1:50
+这样可以避免老师质疑“1–5 分从哪里来”。尤其是阻隔指数、热暴露评分、可介入性等级，都应明确属于 D 级，不是实测结果。
 
+第二，法规部分方向正确，但要避免写得像法律结论。
+D.Lgs. 42/2004 确实是意大利文化遗产与景观保护的基础法规；Art. 10、20、21、45、142、146 这些条文与你的判断方向相关。但作品集里最好写成“regulatory implications / design constraints”，不要写成“本项目必然适用某条审批”。具体适用边界仍需由主管机构和场地权属、保护范围确认。Normattiva 可作为法律文本入口引用。
 
-这个尺度不算特别长，但垂直高差和历史层叠很丰富，适合做“纵向策略 + 多处典型剖面 + 节点”的表达方式。
-2. 推荐搜索方向与提示词（按优先级排序）
-方向A：精确边界与现状地图（最先做）
-目标：确定研究范围、Emporium遗迹具体位置、现有开口/楼梯/连接点。
-搜索关键词（直接复制用）：
+建议把这一句：
 
-Lungotevere Testaccio Roma（Google Maps / Google Earth）
-Lungotevere Testaccio OpenStreetMap
-Ponte Sublicio to Ponte Testaccio riverfront
-Emporium Testaccio location map 或 Porticus Aemilia Testaccio pianta
-Roma Geoportale Lungotevere Testaccio（官方规划图层）
-Testaccio Masterplan 2025 PDF（看是否涉及这段河岸）
+“适用法规：D.Lgs. 42/2004。”
 
-实用技巧：
+改成：
 
-在Google Earth里搜索 “Lungotevere Testaccio”，然后用路径测量工具量500米这段。
-重点观察：Piazza dell’Emporio、Via Franklin、Via Rubattino、Testaccio市场附近、Ponte Testaccio桥头这几个点。
+The project is framed with reference to D.Lgs. 42/2004, the Italian Code of Cultural Heritage and Landscape. At this stage, the code is used to define design precautions rather than to make a formal legal determination of authorization procedures.
 
-方向B：Emporium / Porticus Aemilia 考古与遗迹现状
-目标：了解遗迹规模、可见程度、与现代墙体的空间关系。
-搜索关键词：
+第三，历史成因部分很强，但 Emporium 和 Porticus Aemilia 的关系要保持清楚。
+Emporium 是古罗马河港，约在公元前 2 世纪初建立，位置在 Aventine 与 Testaccio 一带；Porticus Aemilia 与 Emporium 同期相关，承担仓储和分配功能。资料中 Emporium 可见遗存包括约 500 米长、90 米深的码头结构、台阶、坡道和系船构造；Porticus Aemilia 则是更靠街区内部的大型仓储建筑，约 487 米长、60 米深。两者应写成“河港—仓储系统”，不要合并成同一个遗址。
 
-Porticus Aemilia Emporium Roma
-resti Porticus Aemilia Testaccio（意大利语，效果最好）
-Emporium ancient river port Testaccio visible
-Porticus Aemilia 487m 或 Porticus Aemilia plan reconstruction
-Horrea Porticus Aemilia Testaccio
-Digital Augustan Rome Porticus Aemilia（学术重建图很好）
+第四，1875–1926 的现代防洪墙叙述可以保留。
+Lungotevere 建设的主要目标是控制台伯河洪水，1875 年批准相关工程，1876 年开工，至 1926 年完成；工程包括沿河道路和 muraglioni 防洪墙，并造成原有河岸环境的大幅改变。这个资料可以支撑你的“现代防洪系统切断日常亲水关系”的论点。
 
-重点看的内容：
+第五，水位月份表需要标注为“概念性假设”。
+你现在给了 Jan–Dec 的相对水位 / 洪水风险和可使用性百分比，这个很有用，但风险是看起来像真实水文数据。建议表标题改为：
 
-遗迹主要集中在 Via Rubattino – Via Franklin 一带，有些已融入街区或市场周边。
-搜索图片时加 2024 或 2025 或 2026，看最新可见状态。
-有些照片会显示opus incertum（不规则石块砌筑）的墙体和柱墩残段。
+“Conceptual seasonal usability model based on typical flood-risk logic, pending verification with hydrometric data.”
 
-方向C：防洪墙（Muraglioni）与河岸剖面
-目标：理解高差、墙体构造、现有公共空间可能性。
-搜索关键词：
+并且在表下注明：
 
-muraglioni Tevere Testaccio
-Lungotevere Testaccio flood wall 或 retaining wall section
-sezione muraglioni Tevere Roma（剖面图）
-Tiber embankment height Rome（约12米）
-Lungotevere Testaccio high difference 或 dislivello Lungotevere Testaccio
+This table is a design-stage conceptual model. It does not represent measured daily water-level data. It should be verified through hydrometric records from Regione Lazio / Ufficio Idrografico e Mareografico and relevant Tiber basin flood-risk documents.
 
-额外：
+Lazio 的区域水文机构负责水文、气象和水位等监测，适合作为后续核验入口。
 
-搜索 Tiber river wall section drawing 或 sezione tipo muraglione Tevere，能找到典型构造图。
+第六，设计结论已经很清楚，但可以再压缩成“诊断—策略矩阵”。
+现在文字量偏大，适合作为报告；如果放到 A1 图板，需要转成矩阵。建议最后形成这张表：
 
-方向D：街景与实地照片（强烈推荐多看）
-目标：感受围挡、可进入性、植被、界面质量、热环境等。
-搜索关键词（Google图片搜索 + Street View）：
+issue → evidence → spatial segment → design response → drawing output
 
-Lungotevere Testaccio Roma street view
-Lungotevere Testaccio Emporium
-Via Franklin Testaccio fiume 或 Via Rubattino Testaccio resti romani
-Ponte Sublicio Lungotevere
-Testaccio riverbank access 或 discesa Lungotevere Testaccio
+heritage sensitivity → Emporium / Porticus Aemilia remains → S2, S4 → reversible interpretation, no deep foundation → heritage readability map + section
 
-建议：
+flood-control constraint → muraglioni and lower bank seasonality → all segments, especially S2/S5 → floodable, washable, removable elements → flood constraint section
 
-在Google Maps里直接Street View走一遍这段路（从Piazza dell’Emporio往南）。
-重点截图：墙体与遗迹关系、现有楼梯/开口、树冠情况、桥头空间。
+accessibility barrier → high barrier score in S2/S5 → S1/S3/S5 → gateway, signage, safer crossing, stair upgrade → accessibility map
 
-方向E：历史地图与演变
-目标：做历史层叠图用。
-搜索关键词：
+heat exposure → S3/S5 score 4.4/5 → S3/S5 → shade, permeable paving, low-maintenance planting → heat exposure map
 
-Pianta Roma Emporium（历史地图）
-historical map Testaccio Tiber port
-Emporium Roma reconstruction drawing
-Lungotevere Testaccio historical photo（19-20世纪老照片）
+maintenance complexity → lower bank and heritage interface → S2/S5 → simple materials, controlled vegetation, maintenance routes → material-maintenance matrix
 
-方向F：规划与近期动态
+可以直接改进的标题结构如下：
 
-Masterplan Testaccio 2025（已批准的区域再生规划）
-riqualificazione Lungotevere Testaccio（看有没有针对性项目）
-Tiber riverfront regeneration Rome Testaccio
+1. Scope and Evidence Boundary
+2. Historical Formation of the River Edge
+3. Regulatory and Infrastructure Constraints
+4. Segment-by-Segment Existing Conditions
+5. Key Problems
+   5.1 Accessibility and Barrier
+   5.2 Heritage Readability
+   5.3 Flood Seasonality and Maintenance
+   5.4 Heat Exposure and Microclimate
+6. Design Implications
+7. Priority Intervention Zones
+8. Data Gaps and Required Verification
 
-3. 实用搜索组合建议（推荐顺序）
+目前最值得保留的核心判断是：
 
-先用Google Earth + OpenStreetMap把500米范围框出来，标出Emporium可见段和桥头。
-用 resti Porticus Aemilia Testaccio + 图片搜索，看遗迹当前可见程度。
-用 muraglioni Tevere + sezione 找剖面参考。
-用Street View实地“走”一遍，记录问题点（断裂、高差、缺荫、封闭界面等）。
-最后补充Masterplan和考古重建图，提升研究深度。
+The site should not be redesigned as a conventional waterfront park. Lungotevere Testaccio / Emporium is a layered infrastructural edge where ancient river-port remains, modern flood-control walls, traffic corridors, and heritage protection constraints overlap. The design priority should therefore shift from heavy transformation to selective reconnection: improving readability, access, thermal comfort, and low-maintenance seasonal use without compromising flood safety or archaeological integrity.
 
-4. 小贴士
+这句话可以作为整个项目的 thesis statement。
 
-意大利语关键词效果通常比英语好，尤其是本地照片和规划文件。
-Emporium遗迹不是一个集中开放的考古公园，而是分散在街区中的可见残段，这正是设计机会（如何让它“可读”）。
-这段河岸最核心的矛盾就是“墙 + 路 + 高差”三重阻隔，资料搜索时多关注这三者的关系。
+第一类：最适合你直接参考的欧洲项目
+
+Madrid Río，马德里
+关键词：城市高速路下沉后河岸再生、线性公园、城市连接、热舒适、慢行系统。
+可参考点：如何把被道路切断的河岸重新接入城市；如何用桥、坡道、节点空间组织长线性空间。
+不宜照搬：它是大规模城市工程，与你的 Testaccio 轻量介入尺度不同。
+Cheonggyecheon，首尔
+关键词：城市水道复兴、历史叙事、线性步行空间、降温。
+可参考点：水体、线性步道、桥下空间、历史记忆如何共同形成公共空间。
+不宜照搬：它是彻底拆除高架后的大型市政工程，你的项目不能大拆防洪墙。
+Room for the River，荷兰
+关键词：给河流空间、防洪、生态修复、可淹没景观。
+可参考点：不要和洪水对抗，而是把低位空间设计成可淹没、可恢复、低损耗的景观系统。
+适合转译到你的项目：下层台伯河岸采用“seasonal use + flood recovery”的逻辑，而不是全年固定高强度使用。
+Rotterdam Tidal Park / Keilehaven，鹿特丹
+关键词：潮汐公园、工业港口再生、生态边缘、气候适应。
+可参考点：硬质港口边缘如何转化为有生态梯度的水陆交界面；如何在城市防洪逻辑下引入栖息地。鹿特丹 Keilehaven 被改造为潮汐公园，用于适应海平面上升、极端天气和城市生态恢复。
+适合转译：你的台伯河岸不一定做潮汐湿地，但可以借鉴“硬岸线上的生态微边缘”。
+Bishan-Ang Mo Kio Park，新加坡，Ramboll Studio Dreiseitl / Atelier Dreiseitl
+关键词：混凝土渠自然化、洪水调蓄、公园日常使用、雨洪管理。
+可参考点：日常是公园，暴雨时成为水文基础设施。
+适合转译：你的下层河岸可以设计成“平时可停留，水位上升时可被淹没，洪水后可清洗恢复”。
+Tanner Springs Park，波特兰
+关键词：小尺度城市湿地、雨水、生态栖息地、低调材料。
+可参考点：如何在城市硬质环境里恢复小型生态系统；材料表达克制。
+适合转译：适合参考“微型生态节点”，不适合照搬湿地尺度。
+De Ceuvel，阿姆斯特丹
+关键词：污染地、可逆构筑、低成本、自循环、不能深挖。
+可参考点：在污染或不确定土壤条件下，如何用架空、浅基础、可逆系统避免扰动地面。De Ceuvel 场地因土壤污染不能深挖超过约 50cm，因此采用地表管线、自循环水系统、雨水和废水处理等低成本策略。
+适合转译：你的遗产敏感段和可能城市填土段，可以用“少挖、浅介入、可逆”的逻辑。
+Vitoria-Gasteiz Green Belt，西班牙
+关键词：城市边缘生态修复、低强度公共使用、生态廊道、长期维护。
+可参考点：生态修复不是一次性景观，而是长期管理系统。该绿色环带通过恢复城市边缘退化空间，建立生态和休闲廊道，并包含植被、设备、标识、清洁与洪水后河岸清理等维护内容。
+适合转译：用来支撑你的“维护不是后期问题，而是设计生成条件”。
+Ladywell Fields / River Ravensbourne restoration，伦敦
+关键词：城市河道自然化、洪水缓冲、亲水教育、低成本修复。
+可参考点：把被渠道化的河流重新引入公园中心，同时创造洪水缓冲和公众接触自然的空间。Ladywell Fields 的修复包括改道、河流接触空间和下游洪水缓冲。
+适合转译：你的场地不能改台伯河主河道，但可以学习“水文功能 + 日常体验 + 生态教育”的组合。
+Mansfield Sustainable Flood Resilience Project，英国
+关键词：海绵城市、SuDS、雨水花园、透水铺装、维护监测。
+可参考点：分散式雨水系统如何降低城市径流压力。该项目计划通过大量 SuDS、雨水花园、透水铺装、生态沟和滞洪设施储存大量地表径流，并由高校监测长期效果。
+适合转译：用于你的 S3、S5 上层入口和桥头硬化区，而不是直接用于低位台伯河岸。
+
+第二类：关于减少维护成本的研究方向
+
+低维护不是“不维护”，而是把维护转化成可预测、可分区、可承受的管理系统。你可以从四个方向找研究。
+
+低维护种植设计
+核心问题：传统花境、草坪、精细灌溉和频繁修剪成本高，公共滨水空间很难长期维持。
+适合研究方向：地中海气候耐旱植物、自然式多年生草本、低修剪草地、乡土植物群落、可自然演替区。
+在你的项目中：S3、S5 做遮阴与耐旱种植；S2 遗产段控制根系和生长高度；下层河岸使用耐水位波动的可恢复植物。
+维护分区设计
+核心问题：公共空间不是所有地方都应该同一维护等级。
+做法：把场地分为高维护节点、中维护日常区、低维护生态缓冲区、洪水后清理区。
+在图纸中可以做成 maintenance zoning map。
+推荐指标：
+maintenance_intensity =
+irrigation_need +
+pruning_frequency +
+cleaning_frequency +
+flood_damage_risk +
+replacement_frequency
+可逆与可替换材料
+核心问题：遗产和防洪场地不能依赖重型永久结构。
+材料方向：镀锌钢、不锈钢扶手、可拆卸木平台、金属格栅、石材局部修补、透水铺装、砾石稳定系统、低照度可维护灯具。
+评价维度：可逆性、耐洪水、易清洗、低更换成本、遗产兼容性、抗滑性。
+洪水后恢复设计
+核心问题：低位河岸终究会被淹，设计目标不是“永不受损”，而是“损失可控、恢复快速”。
+做法：少用复杂电气；家具可移动或可冲洗；铺装抗冲刷；植物可恢复；预留清淤和检修路径。
+你可以把它写成：
+flood_recovery_design =
+washable_surfaces +
+removable_furniture +
+robust_planting +
+maintenance_access +
+low_electrical_dependency
+
+第三类：关于水文友好材料的研究和设计依据
+
+透水铺装
+研究重点：减少径流、促进下渗、滞留污染物、缓解热环境。透水铺装被广泛用于源头雨水控制，可减少地表径流、促进地下水补给，并通过基层过滤部分污染物；但树木生长收益和长期性能会受到施工压实、堵塞和维护影响。
+适合位置：S3、S5 上层入口、桥头小广场、非遗迹敏感硬化区。
+不适合位置：遗迹正上方、需要承受重型车辆且基层条件不明的位置、污染土壤不能下渗的位置。
+开级配碎石基层 / 砾石稳定系统
+作用：临时储水、减小径流峰值、易替换、可逆。
+适合位置：轻量步道、遗产敏感区外围、临时平台周边。
+风险：无障碍舒适度、防滑、轮椅通行、颗粒迁移，需要边界控制。
+金属格栅与架空平台
+作用：减少对地表扰动，允许水和光通过，适合可逆介入。
+适合位置：遗迹观察节点、不可深挖区域、下层河岸局部节点。
+风险：热舒适差、噪音、脚感、维护、防滑，不能过度使用。
+可淹没石材 / 混凝土修补
+作用：耐冲刷、易清洗、与罗马河岸材质更协调。
+适合位置：台阶修复、边缘压顶、低位路径。
+风险：如果完全硬化，会削弱生态和雨水功能，所以要与植被缝、透水带、排水坡度结合。
+生物滞留基质和雨水花园材料
+作用：滞留、过滤、蒸散、提升生境。
+适合位置：上层道路侧、入口广场、桥头空间。
+不适合位置：经常被台伯河洪水直接冲刷的低位空间，除非设计成可恢复的河岸植物带。
+
+第四类：关于生态友好材料和系统的研究方向
+
+Nature-based Solutions, NBS
+NBS 研究关注用自然过程同时解决城市热、洪水、生物多样性、健康和社会公平问题。欧洲项目中已经形成了针对城市挑战和生态系统服务的分类与评估框架，但不同术语、类型和绩效评估之间仍存在不一致。
+对你有用的点：你的项目可以把“遮阴、雨水、生态、公共性、遗产叙事”放进一个 NBS + heritage landscape 框架。
+SuDS / Sustainable Drainage Systems
+重点不是单个雨水花园，而是从硬质铺装、树池、生态沟、下凹绿地、滞留空间到排水出口的系统。
+对你有用的点：S3、S5 的硬化入口区可以用 SuDS 处理；S2 遗产段谨慎，只做浅层和可逆雨水策略。
+城市材料识别与维护数据
+近年研究开始用街景图像和计算机视觉识别城市铺装材料。CitySurfaces 这类研究说明，城市铺装材料对气候、地表水管理和维护成本很关键，并且可以通过街景图像低成本建立材料数据库。
+对你有用的点：你可以把 Street View 材料观察做成“现状材料与维护风险图”，不必全靠现场测量。
+构建湿地与生态连通性
+构建湿地作为 NBS，不仅能改善水质，也能提升生境连通性和多功能性。相关研究指出，湿地可拦截颗粒物、营养盐和污染物，同时缓冲水体污染。
+对你有用的点：台伯河主河道不能轻易做湿地工程，但可以借鉴“线性生态 stepping stones”，在入口、墙脚、下层边缘设置小型生境节点。
+
+第五类：最适合你做成作品集参考板的项目组合
+
+建议你不要堆 20 个案例。选 6 个就够：
+
+Madrid Río：城市连接与线性河岸。
+Rotterdam Tidal Park / Keilehaven：硬质港口边缘的生态化。
+Bishan-Ang Mo Kio Park：洪水可淹没公共空间。
+De Ceuvel：污染/不可深挖场地的可逆低成本介入。
+Vitoria-Gasteiz Green Belt：长期生态维护与低强度公共使用。
+Ladywell Fields：城市河道自然化与洪水缓冲。
+
+每个案例只分析四件事：
+
+1. What was the original problem?
+2. What hydrological or ecological strategy was used?
+3. What material or maintenance logic made it feasible?
+4. What can be transferred to Lungotevere Testaccio, and what cannot?
+
+第六类：你可以直接用于检索论文的关键词
+
+low maintenance landscape architecture public space
+floodable public space landscape architecture
+water sensitive urban design heritage riverfront
+permeable pavement stormwater management urban heat
+nature-based solutions urban riverfront Europe
+SuDS maintenance cost public landscape
+urban river restoration ecological public space
+flood resilient materials landscape architecture
+reversible design heritage landscape architecture
+Mediterranean drought tolerant planting urban landscape
+urban biodiversity riverfront landscape design
+street view material classification urban surfaces
+
+最适合你论文/作品集里引用的研究框架不是“材料越生态越好”，而是这个判断：
+
+For Lungotevere Testaccio / Emporium, ecological and hydrological design should be evaluated through reversi
